@@ -100,7 +100,7 @@ class Elevator {
   }
 
   log() {
-    console.log(`\nWAITING LIST: ${JSON.stringify(this.waitingList)} \nPASSENGGERS: ${JSON.stringify(this.passengers)} \nDirection: ${this.direction} | Floor: ${this.floor} | requests:[${this.requests}]`);
+    console.log(`\nWAITING LIST: ${JSON.stringify(this.waitingList)} \nPASSENGERS: ${JSON.stringify(this.passengers)} \nDirection: ${this.direction} | Floor: ${this.floor} | Requests:[${this.requests}]`);
   }
 }
 
